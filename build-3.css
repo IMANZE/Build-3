@@ -4,8 +4,8 @@ h1{
 }
 .board{
     
-  width: 600px;
-  height: 600px;
+  width: 400px;
+  height: 400px;
   border: 1px solid black;
   position: fixed;
   top: 50%;
@@ -14,8 +14,8 @@ h1{
 
 }
 .square{
-    width: 75px;
-    height: 75px;
+    width: 50px;
+    height: 50px;
     float: left;
     position: relative;
 }
@@ -82,13 +82,13 @@ span{
 }
 
 .board > .column-1 > .square > span:first-child{
-    bottom: 80px;
-    left: 28.5PX;
+    bottom: 53.3px;
+    left: 19PX;
   }
 
 .board > .column-8 > .square > span:first-child{
-    top: 80px;
-    left: 28.5PX;
+    top:  53.3px;
+    left: 19PX;
   } 
   .board > .square > span > .left {
     left: 130px;
@@ -96,16 +96,19 @@ span{
 
 .left{
     position: absolute;
-    right: 90px;
-    bottom: 28.5px;
+    right: 62px;
+    bottom: 19px;
 }
 
 .right{
     position: absolute;
-    left: 90px;
-    bottom: 28.5px;  
+    left: 62px;
+    bottom: 19px;  
 }
 
 .board > .column-4 > .square:nth-child(5){
     background-color: red
+}
+.square:hover.square:hover {
+    background-color: red;
 }
