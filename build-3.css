@@ -109,6 +109,6 @@ span{
 .board > .column-4 > .square:nth-child(5){
     background-color: red
 }
-.square:hover.square:hover {
-    background-color: red;
+.square:hover {
+    background-color: red!important;
 }
