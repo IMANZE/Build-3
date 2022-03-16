@@ -1,7 +1,24 @@
+
+h1{
+    text-align: center;
+}
 .board{
+    position: relative;
     width: 600px;
     height: 600px;
     margin: 0 auto;
     padding: 0;
     border: 1px solid black;
+}
+.square{
+    width: 75px;
+    height: 75px;
+    float: left;
+}
+
+.board > .column-1 > .square:nth-child(even){
+    background-color: black;
+}
+.board > .column-1 > .square:nth-child(odd){
+    background-color: rgb(165, 127, 88);
 }
