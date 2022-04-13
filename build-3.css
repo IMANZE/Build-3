@@ -1,9 +1,7 @@
-
-h1{
-    text-align: center;
+h1 {
+  text-align: center;
 }
-.board{
-    
+.board {
   width: 400px;
   height: 400px;
   border: 1px solid black;
@@ -11,104 +9,102 @@ h1{
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-
 }
-.square{
-    width: 50px;
-    height: 50px;
-    float: left;
-    position: relative;
-}
- 
-span{
-    position: absolute;
+.square {
+  width: 50px;
+  height: 50px;
+  float: left;
+  position: relative;
 }
 
-
-.board > .column-1 > .square:nth-child(even){
-    background-color: black;
-}
-.board > .column-1 > .square:nth-child(odd){
-    background-color: rgb(165, 127, 88);
+span {
+  position: absolute;
 }
 
-.board > .column-2 > .square:nth-child(odd){
-    background-color: black;
+.board > .column-1 > .square:nth-child(even) {
+  background-color: black;
 }
-.board > .column-2 > .square:nth-child(even){
-    background-color: rgb(165, 127, 88);
-}
-
-.board > .column-3 > .square:nth-child(even){
-    background-color: black;
-}
-.board > .column-3 > .square:nth-child(odd){
-    background-color: rgb(165, 127, 88);
+.board > .column-1 > .square:nth-child(odd) {
+  background-color: rgb(165, 127, 88);
 }
 
-.board > .column-4 > .square:nth-child(odd){
-    background-color: black;
+.board > .column-2 > .square:nth-child(odd) {
+  background-color: black;
 }
-.board > .column-4 > .square:nth-child(even){
-    background-color: rgb(165, 127, 88);
-}
-
-.board > .column-5 > .square:nth-child(even){
-    background-color: black;
-}
-.board > .column-5 > .square:nth-child(odd){
-    background-color: rgb(165, 127, 88);
+.board > .column-2 > .square:nth-child(even) {
+  background-color: rgb(165, 127, 88);
 }
 
-.board > .column-6 > .square:nth-child(odd){
-    background-color: black;
+.board > .column-3 > .square:nth-child(even) {
+  background-color: black;
 }
-.board > .column-6 > .square:nth-child(even){
-    background-color: rgb(165, 127, 88);
-}
-
-.board > .column-7 > .square:nth-child(even){
-    background-color: black;
-}
-.board > .column-7 > .square:nth-child(odd){
-    background-color: rgb(165, 127, 88);
+.board > .column-3 > .square:nth-child(odd) {
+  background-color: rgb(165, 127, 88);
 }
 
-.board > .column-8 > .square:nth-child(odd){
-    background-color: black;
+.board > .column-4 > .square:nth-child(odd) {
+  background-color: black;
 }
-.board > .column-8 > .square:nth-child(even){
-    background-color: rgb(165, 127, 88);
-}
-
-.board > .column-1 > .square > span:first-child{
-    bottom: 53.3px;
-    left: 19PX;
-  }
-
-.board > .column-8 > .square > span:first-child{
-    top:  53.3px;
-    left: 19PX;
-  } 
-  .board > .square > span > .left {
-    left: 130px;
-  }
-
-.left{
-    position: absolute;
-    right: 62px;
-    bottom: 19px;
+.board > .column-4 > .square:nth-child(even) {
+  background-color: rgb(165, 127, 88);
 }
 
-.right{
-    position: absolute;
-    left: 62px;
-    bottom: 19px;  
+.board > .column-5 > .square:nth-child(even) {
+  background-color: black;
+}
+.board > .column-5 > .square:nth-child(odd) {
+  background-color: rgb(165, 127, 88);
 }
 
-.board > .column-4 > .square:nth-child(5){
-    background-color: red
+.board > .column-6 > .square:nth-child(odd) {
+  background-color: black;
+}
+.board > .column-6 > .square:nth-child(even) {
+  background-color: rgb(165, 127, 88);
+}
+
+.board > .column-7 > .square:nth-child(even) {
+  background-color: black;
+}
+.board > .column-7 > .square:nth-child(odd) {
+  background-color: rgb(165, 127, 88);
+}
+
+.board > .column-8 > .square:nth-child(odd) {
+  background-color: black;
+}
+.board > .column-8 > .square:nth-child(even) {
+  background-color: rgb(165, 127, 88);
+}
+
+.board > .column-1 > .square > span:first-child {
+  bottom: 53.3px;
+  left: 19px;
+}
+
+.board > .column-8 > .square > span:first-child {
+  top: 53.3px;
+  left: 19px;
+}
+.board > .square > span > .left {
+  left: 130px;
+}
+
+.left {
+  position: absolute;
+  right: 62px;
+  bottom: 19px;
+}
+
+.right {
+  position: absolute;
+  left: 62px;
+  bottom: 19px;
+}
+
+.board > .column-4 > .square:nth-child(5) {
+  background-color: red;
 }
 .square:hover {
-    background-color: red!important;
+  background-color: red !important;
 }
